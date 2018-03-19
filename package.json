@@ -14,11 +14,11 @@
   },
   "dependencies": {
     "nuxt": "^1.0.0",
+    "cross-env": "^5.0.1",
     "express": "^4.15.3",
     "@nuxtjs/axios": "^5.0.0"
   },
   "devDependencies": {
-    "cross-env": "^5.0.1",
     "babel-eslint": "^8.2.1",
     "eslint": "^4.15.0",
     "eslint-loader": "^1.7.1",
