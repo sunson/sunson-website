@@ -1,16 +1,17 @@
 <template>
   <section class="container">
     <div>
-      <logo/>
       <h1 class="title">
-        sunsondotin
+        Sun Son
       </h1>
       <h2 class="subtitle">
-        My Personal Website
+        Just a word play on <em>Suraj Kumar</em>
       </h2>
-      <div class="links">
-        <a href="https://nuxtjs.org/" target="_blank" class="button--green">Documentation</a>
-        <a href="https://github.com/nuxt/nuxt.js" target="_blank" class="button--grey">GitHub</a>
+      <div class="box">
+        <div class="content">
+          <p>This website is under rapid re-construction. It is undergoing a profound transformation of a spiritual kind that appears extremely material and utilitarian as a set of software tools and a community of my friends from real life who can do useful things with me - such as schedule my time to learn Transcendental Meditation from me, connect to my diverse set of friends from the <em>alternative</em> community, procure stuff through the informal, but organized network that I run, called <a href="http://green.org.in">GREEN</a>, etc., etc.,.</p>
+          <p>Please check back in a day or two.</p>
+        </div>
       </div>
     </div>
   </section>
@@ -55,5 +56,10 @@ export default {
 .links
 {
   padding-top: 15px;
+}
+.content
+{
+  margin: 30px;
+  background-color: #fcc;
 }
 </style>
